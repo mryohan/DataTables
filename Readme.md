@@ -51,3 +51,7 @@ Support for DataTables is available through the [DataTables forums](//datatables
 ## License
 
 DataTables is release under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, as long as the copyright header is left intact (specifically the comment block which starts with `/*!`.
+
+## Additional Feature
+
+In mobile browser, if you have many columns, you need to use responsive design. But, responsive design will push several outer columns to the child/next row. What I tried to do here is to extend one cell in a column to use the rest of row when you click and maintain the responsive design.
